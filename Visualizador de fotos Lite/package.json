@@ -1,0 +1,12 @@
+{
+  "name": "photo-viewer-lite",
+  "version": "1.0.0",
+  "description": "PhotoViewer Lite - desafio Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^28.3.3"
+  }
+}

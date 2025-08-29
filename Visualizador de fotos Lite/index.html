@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>PhotoViewer Lite</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="titlebar">
+    <button onclick="window.electronAPI.minimize()">—</button>
+    <button onclick="window.electronAPI.maximizeRestore()">▢</button>
+    <button onclick="window.electronAPI.close()">✕</button>
+  </div>
+
+  <h1>Visualizador De Fotos Lite</h1>
+  <button id="openBtn">Abrir Imagem</button>
+  <div id="info"></div>
+  <img id="preview" style="max-width: 500px; display:block; margin-top:10px;"/>
+  <div id="status" style="margin-top:10px; color:gray; font-size:14px;"></div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
